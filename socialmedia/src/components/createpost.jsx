@@ -14,7 +14,7 @@ const CreatePost = () => {
     event.preventDefault();
     const hashtagslist = Hashtags.current.value.split(" ");
     const New_POST = {
-      id: "4",
+      id: Date.now(),
       title: Title.current.value,
       body: Body.current.value,
       reactions: Reactions.current.value,
